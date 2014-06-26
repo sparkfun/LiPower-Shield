@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -165,19 +165,19 @@
 <text x="48.9585" y="49.4665" size="1.143" layer="21" font="vector" ratio="15" rot="R270">2</text>
 <text x="51.4985" y="49.4665" size="1.143" layer="21" font="vector" ratio="15" rot="R270">TX</text>
 <text x="54.0385" y="49.4665" size="1.143" layer="21" font="vector" ratio="15" rot="R270">RX</text>
-<text x="24.638" y="3.81" size="1.016" layer="21" font="vector" ratio="15" rot="R90">RST</text>
-<text x="32.258" y="3.81" size="1.016" layer="21" font="vector" ratio="15" rot="R90">GND</text>
-<text x="27.178" y="3.81" size="1.016" layer="21" font="vector" ratio="15" rot="R90">3.3</text>
-<text x="29.718" y="3.81" size="1.016" layer="21" font="vector" ratio="15" rot="R90">5V</text>
-<text x="34.798" y="3.81" size="1.016" layer="21" font="vector" ratio="15" rot="R90">GND</text>
-<text x="37.338" y="3.81" size="1.016" layer="21" font="vector" ratio="15" rot="R90">VIN</text>
-<text x="44.3865" y="5.334" size="1.016" layer="21" font="vector" ratio="15">Analog In</text>
-<text x="42.4815" y="3.81" size="1.143" layer="21" font="vector" ratio="15" rot="R90">0</text>
-<text x="45.0215" y="3.81" size="1.143" layer="21" font="vector" ratio="15" rot="R90">1</text>
-<text x="47.5615" y="3.81" size="1.143" layer="21" font="vector" ratio="15" rot="R90">2</text>
-<text x="50.1015" y="3.81" size="1.143" layer="21" font="vector" ratio="15" rot="R90">3</text>
-<text x="52.6415" y="3.81" size="1.143" layer="21" font="vector" ratio="15" rot="R90">4</text>
-<text x="55.1815" y="3.81" size="1.143" layer="21" font="vector" ratio="15" rot="R90">5</text>
+<text x="24.638" y="4.064" size="1.016" layer="21" font="vector" ratio="15" rot="R90">RST</text>
+<text x="32.258" y="4.064" size="1.016" layer="21" font="vector" ratio="15" rot="R90">GND</text>
+<text x="27.178" y="4.064" size="1.016" layer="21" font="vector" ratio="15" rot="R90">3.3</text>
+<text x="29.718" y="4.064" size="1.016" layer="21" font="vector" ratio="15" rot="R90">5V</text>
+<text x="34.798" y="4.064" size="1.016" layer="21" font="vector" ratio="15" rot="R90">GND</text>
+<text x="37.338" y="4.064" size="1.016" layer="21" font="vector" ratio="15" rot="R90">VIN</text>
+<text x="44.3865" y="5.588" size="1.016" layer="21" font="vector" ratio="15">Analog In</text>
+<text x="42.4815" y="3.937" size="1.143" layer="21" font="vector" ratio="15" rot="R90">0</text>
+<text x="45.0215" y="4.064" size="1.143" layer="21" font="vector" ratio="15" rot="R90">1</text>
+<text x="47.5615" y="3.937" size="1.143" layer="21" font="vector" ratio="15" rot="R90">2</text>
+<text x="50.1015" y="3.937" size="1.143" layer="21" font="vector" ratio="15" rot="R90">3</text>
+<text x="52.6415" y="3.937" size="1.143" layer="21" font="vector" ratio="15" rot="R90">4</text>
+<text x="55.1815" y="3.937" size="1.143" layer="21" font="vector" ratio="15" rot="R90">5</text>
 <text x="17.653" y="32.004" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">ALT</text>
 <text x="21.336" y="31.496" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">D2</text>
 <text x="9.398" y="0.381" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">8/1/11</text>
@@ -1189,7 +1189,7 @@ design rules under a new name.</description>
 <element name="R8" library="SparkFun" package="0402-RES" value="10k" x="11.43" y="26.67" rot="R90"/>
 <element name="SJ2" library="SparkFun" package="SJ_2S-NO" value="PS" x="8.89" y="30.48" rot="MR270"/>
 <element name="JP5" library="abes" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="2.54" y="50.8"/>
-<element name="JP6" library="abes" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="58.42" y="10.16"/>
+<element name="JP6" library="abes" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="56.896" y="4.191"/>
 </elements>
 <signals>
 <signal name="GND">
