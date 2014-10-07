@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -188,14 +188,13 @@
 <wire x1="49.53" y1="40.64" x2="49.53" y2="15.24" width="1.8796" layer="21"/>
 <wire x1="52.842159375" y1="31.137859375" x2="52.842159375" y2="29.89641875" width="0.254" layer="21"/>
 <wire x1="52.842159375" y1="29.89641875" x2="52.84978125" y2="29.87801875" width="0.254" layer="21" curve="45"/>
-<wire x1="52.07" y1="40.64" x2="52.07" y2="33.02" width="1.8796" layer="21"/>
-<wire x1="52.07" y1="15.24" x2="52.07" y2="22.86" width="1.8796" layer="21"/>
 <text x="15.621" y="0.762" size="1.27" layer="21" font="vector" ratio="15" rot="R90">ON</text>
 <text x="4.953" y="0.508" size="1.27" layer="21" font="vector" ratio="15" rot="R90">OFF</text>
 <wire x1="54.61" y1="24.13" x2="53.975" y2="24.13" width="0.254" layer="21"/>
 <wire x1="53.975" y1="24.13" x2="53.34" y2="24.765" width="0.254" layer="21"/>
 <wire x1="53.34" y1="24.765" x2="53.34" y2="31.115" width="0.254" layer="21"/>
 <wire x1="53.34" y1="31.115" x2="53.94198125" y2="31.71698125" width="0.254" layer="21"/>
+<wire x1="2.54" y1="0" x2="57.15" y2="0" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun">
