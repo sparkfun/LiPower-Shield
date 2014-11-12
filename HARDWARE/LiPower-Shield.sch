@@ -24036,7 +24036,7 @@ IC-10035</description>
 <wire x1="123.444" y1="55.88" x2="125.476" y2="55.88" width="1.27" layer="94"/>
 <text x="76.2" y="109.22" size="1.778" layer="97">I = 1000V/R</text>
 <text x="93.98" y="104.14" size="1.778" layer="97">R10 = 2.5k for max charge current</text>
-<text x="83.82" y="160.274" size="1.778" layer="97">UVLO=2.52V</text>
+<text x="83.82" y="160.274" size="1.778" layer="97">UVLO=2.75V</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">V11</text>
 <text x="170.434" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
 <text x="148.844" y="6.858" size="2.54" layer="94">Revised by: Patrick Alberts</text>
