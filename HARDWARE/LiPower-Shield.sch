@@ -4212,6 +4212,45 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
+<deviceset name="200KOHM1/10W1%(0603)" prefix="R" uservalue="yes">
+<description>RES-09385</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="200K" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09385"/>
+<attribute name="VALUE" value="200k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2.2MOHM1/10W5%(0603)" prefix="R" uservalue="yes">
+<description>RES-09288</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09288"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Boards">
@@ -23960,8 +23999,6 @@ IC-10035</description>
 <part name="U2" library="SparkFun-PowerIC" deviceset="TPS61200" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="2MOHMS-1/10W-1%(0603)" device="" value="2M"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="220KOHM1/10W1%(0603)" device="" value="220k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="220KOHM1/10W1%(0603)" device="" value="220k"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="2MOHMS-1/10W-1%(0603)" device="" value="2M"/>
@@ -23990,6 +24027,8 @@ IC-10035</description>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK"/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="200KOHM1/10W1%(0603)" device="200K" value="200k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="2.2MOHM1/10W5%(0603)" device="" value="2.2M"/>
 </parts>
 <sheets>
 <sheet>
@@ -24059,14 +24098,6 @@ IC-10035</description>
 <attribute name="VALUE" x="89.154" y="170.815" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="157.48" y="154.94"/>
-<instance part="R7" gate="G$1" x="81.28" y="172.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="81.788" y="175.7426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="81.788" y="167.132" size="1.778" layer="96"/>
-</instance>
-<instance part="R9" gate="G$1" x="81.28" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="81.788" y="155.4226" size="1.778" layer="95"/>
-<attribute name="VALUE" x="81.788" y="147.828" size="1.778" layer="96"/>
-</instance>
 <instance part="R6" gate="G$1" x="170.18" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="170.942" y="145.2626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.942" y="137.668" size="1.778" layer="96"/>
@@ -24115,6 +24146,8 @@ IC-10035</description>
 <instance part="JP7" gate="G$1" x="63.5" y="15.24"/>
 <instance part="JP8" gate="G$1" x="88.9" y="15.24"/>
 <instance part="S2" gate="1" x="30.48" y="127"/>
+<instance part="R9" gate="G$1" x="81.28" y="152.4" rot="R90"/>
+<instance part="R7" gate="G$1" x="81.28" y="172.72" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -24273,8 +24306,8 @@ IC-10035</description>
 </segment>
 <segment>
 <wire x1="81.28" y1="144.78" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="134.62" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
@@ -24416,7 +24449,6 @@ IC-10035</description>
 <label x="40.64" y="180.34" size="1.778" layer="95"/>
 <label x="48.26" y="127" size="1.778" layer="95" rot="MR0"/>
 <label x="38.1" y="60.96" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
@@ -24429,6 +24461,7 @@ IC-10035</description>
 <pinref part="S2" gate="1" pin="O"/>
 <wire x1="35.56" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <junction x="38.1" y="129.54"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -24813,10 +24846,10 @@ IC-10035</description>
 <junction x="81.28" y="165.1"/>
 <pinref part="U2" gate="G$1" pin="UVLO"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="FB" class="0">
