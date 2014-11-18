@@ -4232,25 +4232,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.2MOHM1/10W5%(0603)" prefix="R" uservalue="yes">
-<description>RES-09288</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09288"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Boards">
@@ -24028,7 +24009,7 @@ IC-10035</description>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="200KOHM1/10W1%(0603)" device="200K" value="200k"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="2.2MOHM1/10W5%(0603)" device="" value="2.2M"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="2MOHMS-1/10W-1%(0603)" device="" value="2.0M"/>
 </parts>
 <sheets>
 <sheet>
