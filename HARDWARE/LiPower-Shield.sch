@@ -23636,6 +23636,9 @@ IC-09995</description>
 <wire x1="248.92" y1="68.58" x2="248.92" y2="66.04" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="106.68" y1="35.56" x2="147.32" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="33.02" width="0.2032" layer="97" style="shortdash"/>
+<text x="142.24" y="83.82" size="1.778" layer="97">A4/A5 (DEFAULT)</text>
+<text x="142.24" y="78.74" size="1.778" layer="97">CUT JUMPERS TO USE</text>
+<text x="142.24" y="73.66" size="1.778" layer="97">SCL/SDA ON THE R3 SHIELD</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
