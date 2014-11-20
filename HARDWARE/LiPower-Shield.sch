@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -23639,6 +23639,13 @@ IC-09995</description>
 <text x="142.24" y="83.82" size="1.778" layer="97">A4/A5 (DEFAULT)</text>
 <text x="142.24" y="78.74" size="1.778" layer="97">CUT JUMPERS TO USE</text>
 <text x="142.24" y="73.66" size="1.778" layer="97">SCL/SDA ON THE R3 SHIELD</text>
+<text x="87.884" y="145.542" size="1.778" layer="97">SHORT SJ2 
+TO ENABLE
+POWER-SAVE
+MODE</text>
+<text x="118.11" y="49.022" size="1.778" layer="97">CUT SJ1 TO DISCONNECT MAX1704 
+ALERT PIN (ALT) FROM D2, IF YOU 
+NEED THAT PIN FOR SOMETHING ELSE.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -23729,7 +23736,7 @@ IC-09995</description>
 </instance>
 <instance part="U$4" gate="G$1" x="170.18" y="167.64"/>
 <instance part="SJ2" gate="1" x="104.14" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="101.6" y="149.86" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="107.696" y="149.86" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="GND17" gate="1" x="104.14" y="142.24"/>
 <instance part="JP5" gate="G$1" x="243.84" y="40.64"/>
@@ -24571,4 +24578,10 @@ IC-09995</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
