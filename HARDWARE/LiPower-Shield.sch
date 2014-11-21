@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1734,39 +1734,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="TDFN-8">
-<description>TDFN - 8pin, 2mmx3mm</description>
-<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="1.05" x2="-1.45" y2="1.05" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="1.05" x2="1.5" y2="1.05" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-1.05" x2="1.5" y2="-1.05" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="1.05" x2="-1.45" y2="1.05" width="0.2032" layer="21" curve="-345.749967"/>
-<smd name="EP" x="0" y="0" dx="1.73" dy="1.88" layer="1" stop="no" cream="no"/>
-<smd name="1" x="-1.4" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<smd name="2" x="-1.4" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<smd name="4" x="-1.4" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<smd name="3" x="-1.4" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<smd name="8" x="1.4" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<smd name="7" x="1.4" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<smd name="5" x="1.4" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<smd name="6" x="1.4" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no"/>
-<text x="-2" y="1" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-2" y="-1.4" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8" y1="0.6" x2="-1" y2="0.9" layer="29"/>
-<rectangle x1="-1.8" y1="0.6" x2="-1" y2="0.9" layer="29"/>
-<rectangle x1="-1.8" y1="-0.4" x2="-1" y2="-0.1" layer="29"/>
-<rectangle x1="-1.8" y1="0.1" x2="-1" y2="0.4" layer="29"/>
-<rectangle x1="-1.8" y1="-0.9" x2="-1" y2="-0.6" layer="29"/>
-<rectangle x1="1" y1="0.6" x2="1.8" y2="0.9" layer="29"/>
-<rectangle x1="1" y1="0.1" x2="1.8" y2="0.4" layer="29"/>
-<rectangle x1="1" y1="-0.4" x2="1.8" y2="-0.1" layer="29"/>
-<rectangle x1="1" y1="-0.9" x2="1.8" y2="-0.6" layer="29"/>
-<rectangle x1="-0.865" y1="-0.94" x2="0.865" y2="0.94" layer="29"/>
-<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="31"/>
-</package>
 <package name="INDUCTOR-1206">
 <wire x1="-1.778" y1="2.032" x2="-3.81" y2="2.032" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="2.032" x2="-3.81" y2="-2.032" width="0.127" layer="21"/>
@@ -2083,23 +2050,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="MAX1704X">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-9.652" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CTG" x="-12.7" y="5.08" length="middle"/>
-<pin name="CELL" x="-12.7" y="2.54" length="middle"/>
-<pin name="VDD" x="-12.7" y="0" length="middle"/>
-<pin name="GND@4" x="-12.7" y="-2.54" length="middle"/>
-<pin name="ALT" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="QST" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="SCL" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="SDA" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="GND@EP" x="-12.7" y="-5.08" length="middle"/>
-</symbol>
 <symbol name="5V">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
@@ -2263,30 +2213,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MAX1704X" prefix="U">
-<description>MAX17043/MAX17044: Battery Fuel Guage (43 is 1cell, 44 is 2cell)</description>
-<gates>
-<gate name="G$1" symbol="MAX1704X" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TDFN-8">
-<connects>
-<connect gate="G$1" pin="ALT" pad="5"/>
-<connect gate="G$1" pin="CELL" pad="2"/>
-<connect gate="G$1" pin="CTG" pad="1"/>
-<connect gate="G$1" pin="GND@4" pad="4"/>
-<connect gate="G$1" pin="GND@EP" pad="EP"/>
-<connect gate="G$1" pin="QST" pad="6"/>
-<connect gate="G$1" pin="SCL" pad="7"/>
-<connect gate="G$1" pin="SDA" pad="8"/>
-<connect gate="G$1" pin="VDD" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -23337,22 +23263,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.651" y1="1.4986" x2="1.651" y2="0.8382" width="0.2032" layer="21"/>
 <wire x1="1.651" y1="-0.8128" x2="1.651" y2="-1.4732" width="0.2032" layer="21"/>
 <circle x="-1.25" y="-1.25" radius="0.1285" width="0.03" layer="51"/>
-<smd name="1" x="-1" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="2" x="-0.5" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="3" x="0" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="4" x="0.5" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="5" x="1" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="6" x="1" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="7" x="0.5" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="8" x="0" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="9" x="-0.5" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
-<smd name="10" x="-1" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90"/>
+<smd name="1" x="-1" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="-0.5" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="3" x="0" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="4" x="0.5" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="5" x="1" y="-1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="1" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="7" x="0.5" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="0" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="-0.5" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
+<smd name="10" x="-1" y="1.475" dx="0.85" dy="0.2968" layer="1" rot="R90" cream="no"/>
 <smd name="15" x="0" y="0" dx="1.65" dy="2.4" layer="1" rot="R90" cream="no"/>
 <smd name="11" x="-1.5" y="0.25" dx="0.7" dy="0.28" layer="1" rot="R180"/>
 <smd name="12" x="-1.5" y="-0.25" dx="0.7" dy="0.28" layer="1" rot="R180"/>
 <smd name="13" x="1.5" y="0.25" dx="0.7" dy="0.28" layer="1" rot="R180"/>
 <smd name="14" x="1.5" y="-0.25" dx="0.7" dy="0.28" layer="1" rot="R180"/>
 <rectangle x1="-1.1938" y1="-0.4318" x2="1.1938" y2="0.4318" layer="31"/>
+<rectangle x1="-1.12268125" y1="1.013459375" x2="-0.8763" y2="1.871978125" layer="31"/>
+<rectangle x1="-0.6223" y1="1.018540625" x2="-0.37591875" y2="1.877059375" layer="31"/>
+<rectangle x1="-0.119378125" y1="1.016" x2="0.127003125" y2="1.87451875" layer="31"/>
+<rectangle x1="0.3784625" y1="1.016" x2="0.62484375" y2="1.87451875" layer="31"/>
+<rectangle x1="0.881384375" y1="1.0134625" x2="1.127765625" y2="1.87198125" layer="31"/>
+<rectangle x1="-1.125221875" y1="-1.87198125" x2="-0.878840625" y2="-1.0134625" layer="31"/>
+<rectangle x1="-0.622303125" y1="-1.874521875" x2="-0.375921875" y2="-1.016003125" layer="31"/>
+<rectangle x1="-0.1244625" y1="-1.87198125" x2="0.12191875" y2="-1.0134625" layer="31"/>
+<rectangle x1="0.375915625" y1="-1.87198125" x2="0.622296875" y2="-1.0134625" layer="31"/>
+<rectangle x1="0.878834375" y1="-1.869440625" x2="1.125215625" y2="-1.010921875" layer="31"/>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -23375,6 +23311,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+<package name="TDFN-8">
+<description>TDFN - 8pin, 2mmx3mm</description>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.05" x2="-1.45" y2="1.05" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="1.05" x2="1.5" y2="1.05" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-1.05" x2="1.5" y2="-1.05" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="1.05" x2="-1.45" y2="1.05" width="0.2032" layer="21" curve="-345.749967"/>
+<smd name="EP" x="0" y="0" dx="1.73" dy="1.88" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-1.4" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.4" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-1.4" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-1.4" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="8" x="1.4" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="7" x="1.4" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="5" x="1.4" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="6" x="1.4" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<text x="-2" y="1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2" y="-1.4" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="0.6" x2="-1" y2="0.9" layer="29"/>
+<rectangle x1="-1.8" y1="0.6" x2="-1" y2="0.9" layer="29"/>
+<rectangle x1="-1.8" y1="-0.4" x2="-1" y2="-0.1" layer="29"/>
+<rectangle x1="-1.8" y1="0.1" x2="-1" y2="0.4" layer="29"/>
+<rectangle x1="-1.8" y1="-0.9" x2="-1" y2="-0.6" layer="29"/>
+<rectangle x1="1" y1="0.6" x2="1.8" y2="0.9" layer="29"/>
+<rectangle x1="1" y1="0.1" x2="1.8" y2="0.4" layer="29"/>
+<rectangle x1="1" y1="-0.4" x2="1.8" y2="-0.1" layer="29"/>
+<rectangle x1="1" y1="-0.9" x2="1.8" y2="-0.6" layer="29"/>
+<rectangle x1="-0.865" y1="-0.94" x2="0.865" y2="0.94" layer="29"/>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="31"/>
+<rectangle x1="-1.7653" y1="0.62738125" x2="-0.94741875" y2="0.8763" layer="31"/>
+<rectangle x1="-1.762759375" y1="0.1244625" x2="-0.944878125" y2="0.37338125" layer="31"/>
+<rectangle x1="-1.762759375" y1="0.1244625" x2="-0.944878125" y2="0.37338125" layer="31"/>
+<rectangle x1="-1.76021875" y1="-0.378459375" x2="-0.9423375" y2="-0.129540625" layer="31"/>
+<rectangle x1="-1.76021875" y1="-0.873759375" x2="-0.9423375" y2="-0.624840625" layer="31"/>
+<rectangle x1="0.942340625" y1="0.624840625" x2="1.760221875" y2="0.873759375" layer="31"/>
+<rectangle x1="0.9398" y1="0.12191875" x2="1.75768125" y2="0.3708375" layer="31"/>
+<rectangle x1="0.937259375" y1="-0.375921875" x2="1.755140625" y2="-0.127003125" layer="31"/>
+<rectangle x1="0.937259375" y1="-0.375921875" x2="1.755140625" y2="-0.127003125" layer="31"/>
+<rectangle x1="0.932178125" y1="-0.8737625" x2="1.750059375" y2="-0.62484375" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -23426,6 +23405,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="EN" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
 <pin name="BP" x="7.62" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
+</symbol>
+<symbol name="MAX1704X">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-9.652" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CTG" x="-12.7" y="5.08" length="middle"/>
+<pin name="CELL" x="-12.7" y="2.54" length="middle"/>
+<pin name="VDD" x="-12.7" y="0" length="middle"/>
+<pin name="GND@4" x="-12.7" y="-2.54" length="middle"/>
+<pin name="ALT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="QST" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SCL" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="SDA" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="GND@EP" x="-12.7" y="-5.08" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23524,6 +23520,32 @@ IC-09995</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MAX1704X" prefix="U">
+<description>MAX17043/MAX17044: Battery Fuel Guage (43 is 1cell, 44 is 2cell)</description>
+<gates>
+<gate name="G$1" symbol="MAX1704X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TDFN-8">
+<connects>
+<connect gate="G$1" pin="ALT" pad="5"/>
+<connect gate="G$1" pin="CELL" pad="2"/>
+<connect gate="G$1" pin="CTG" pad="1"/>
+<connect gate="G$1" pin="GND@4" pad="4"/>
+<connect gate="G$1" pin="GND@EP" pad="EP"/>
+<connect gate="G$1" pin="QST" pad="6"/>
+<connect gate="G$1" pin="SCL" pad="7"/>
+<connect gate="G$1" pin="SDA" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD-ID" value="IC-10399"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -23538,7 +23560,7 @@ IC-09995</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U4" library="SparkFun-Boards" deviceset="ARDUINO_R3_SHIELD" device=""/>
-<part name="U1" library="SparkFun" deviceset="MAX1704X" device="" value="MAX17043G+U"/>
+<part name="U1" library="SparkFun-PowerIC" deviceset="MAX1704X" device="" value="MAX17043G+U"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10NF/10000PF-50V-10%(0603)" device="" value="10nF"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="U3" library="SparkFun-PowerIC" deviceset="MCP73831" device=""/>
@@ -23636,9 +23658,9 @@ IC-09995</description>
 <wire x1="248.92" y1="68.58" x2="248.92" y2="66.04" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="106.68" y1="35.56" x2="147.32" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="33.02" width="0.2032" layer="97" style="shortdash"/>
-<text x="142.24" y="83.82" size="1.778" layer="97">A4/A5 (DEFAULT)</text>
-<text x="142.24" y="78.74" size="1.778" layer="97">CUT JUMPERS TO USE</text>
-<text x="142.24" y="73.66" size="1.778" layer="97">SCL/SDA ON THE R3 SHIELD</text>
+<text x="141.478" y="83.566" size="1.778" layer="97">A4/A5 (DEFAULT)</text>
+<text x="141.478" y="80.772" size="1.778" layer="97">CUT JUMPERS TO USE</text>
+<text x="141.224" y="77.978" size="1.778" layer="97">SCL/SDA ON THE R3 SHIELD</text>
 <text x="87.884" y="145.542" size="1.778" layer="97">SHORT SJ2 
 TO ENABLE
 POWER-SAVE
