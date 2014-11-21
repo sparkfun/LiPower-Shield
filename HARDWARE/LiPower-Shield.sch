@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -23665,9 +23665,10 @@ IC-09995</description>
 TO ENABLE
 POWER-SAVE
 MODE</text>
-<text x="118.11" y="49.022" size="1.778" layer="97">CUT SJ1 TO DISCONNECT MAX1704 
+<text x="118.11" y="49.022" size="1.778" layer="97">CUT SJ1 TO DISCONNECT MAX17043G 
 ALERT PIN (ALT) FROM D2, IF YOU 
 NEED THAT PIN FOR SOMETHING ELSE.</text>
+<text x="82.55" y="71.882" size="1.778" layer="97">I2C Address: 0x36</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
