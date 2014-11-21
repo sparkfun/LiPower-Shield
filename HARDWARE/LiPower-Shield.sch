@@ -23669,6 +23669,12 @@ MODE</text>
 ALERT PIN (ALT) FROM D2, IF YOU 
 NEED THAT PIN FOR SOMETHING ELSE.</text>
 <text x="82.55" y="71.882" size="1.778" layer="97">I2C Address: 0x36</text>
+<text x="2.54" y="132.08" size="1.778" layer="97">VBATT Range:
+3.4-4.2V (LiPo Battery)
+</text>
+<text x="117.856" y="130.302" size="1.778" layer="97">VBUS Range:
+4.5-6V
+</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
