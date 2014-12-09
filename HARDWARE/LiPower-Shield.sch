@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -25003,10 +25003,9 @@ IC-09995</description>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k"/>
-<part name="U$4" library="SparkFun" deviceset="5V" device=""/>
 <part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER" device="NO" value="PS"/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
+<part name="JP13" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH" value="SFE_LOGO_NAME_FLAME.2_INCH"/>
@@ -25025,6 +25024,7 @@ IC-09995</description>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="U$2" library="SparkFun" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25121,9 +25121,9 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <attribute name="VALUE" x="89.154" y="170.815" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="157.48" y="154.94"/>
-<instance part="R6" gate="G$1" x="170.18" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="170.942" y="145.2626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="170.942" y="137.668" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="170.18" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="170.942" y="142.7226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="170.942" y="135.128" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="177.8" y="147.32"/>
 <instance part="R4" gate="G$1" x="170.18" y="157.48" smashed="yes" rot="R90">
@@ -25134,7 +25134,7 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <attribute name="NAME" x="73.66" y="175.26" size="1.778" layer="95"/>
 <attribute name="VALUE" x="73.66" y="172.72" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="157.48" y="142.24"/>
+<instance part="GND5" gate="1" x="157.48" y="139.7"/>
 <instance part="GND6" gate="1" x="111.76" y="144.78"/>
 <instance part="GND16" gate="1" x="71.12" y="165.1"/>
 <instance part="L1" gate="G$1" x="129.54" y="180.34" smashed="yes" rot="R270">
@@ -25151,13 +25151,12 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <attribute name="NAME" x="99.568" y="175.7426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.568" y="167.132" size="1.778" layer="96"/>
 </instance>
-<instance part="U$4" gate="G$1" x="170.18" y="167.64"/>
 <instance part="SJ2" gate="1" x="104.14" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.696" y="149.86" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="GND17" gate="1" x="104.14" y="142.24"/>
-<instance part="JP" gate="G$1" x="10.16" y="124.46" rot="R90"/>
-<instance part="TP1" gate="G$1" x="63.5" y="160.02" rot="R180"/>
+<instance part="JP13" gate="G$1" x="10.16" y="124.46" rot="R90"/>
+<instance part="TP1" gate="G$1" x="60.96" y="154.94" rot="R180"/>
 <instance part="LOGO1" gate="G$1" x="220.98" y="48.26"/>
 <instance part="LOGO2" gate="G$1" x="149.86" y="35.56"/>
 <instance part="SJ3" gate="G$1" x="127" y="91.44"/>
@@ -25175,6 +25174,7 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <instance part="LOGO3" gate="G$1" x="233.68" y="50.8"/>
 <instance part="FID1" gate="G$1" x="238.76" y="40.64"/>
 <instance part="FID2" gate="G$1" x="243.84" y="40.64"/>
+<instance part="U$2" gate="G$1" x="177.8" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -25185,7 +25185,6 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <wire x1="134.62" y1="114.3" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="116.84" x2="134.62" y2="127" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="116.84" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
-<junction x="134.62" y="127"/>
 <junction x="134.62" y="116.84"/>
 <pinref part="JP11" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -25225,7 +25224,7 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <junction x="17.78" y="111.76"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<pinref part="JP" gate="G$1" pin="-"/>
+<pinref part="JP13" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
@@ -25315,16 +25314,18 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <wire x1="149.86" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="154.94" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="152.4" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="152.4" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="152.4" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="149.86" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
 <junction x="152.4" y="154.94"/>
 <junction x="152.4" y="152.4"/>
-<junction x="157.48" y="152.4"/>
 <pinref part="U2" gate="G$1" pin="PGND"/>
 <pinref part="U2" gate="G$1" pin="PAD@5"/>
 <pinref part="U2" gate="G$1" pin="PAD@4"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="152.4" y1="152.4" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
+<junction x="157.48" y="149.86"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="144.78" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
@@ -25332,7 +25333,7 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="132.08" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="132.08" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
@@ -25392,16 +25393,17 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <pinref part="U$1" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="5V"/>
 <wire x1="170.18" y1="162.56" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="170.18" y1="165.1" x2="170.18" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
 <junction x="170.18" y="165.1"/>
 <wire x1="177.8" y1="160.02" x2="177.8" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="5V"/>
+<wire x1="177.8" y1="165.1" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
+<junction x="177.8" y="165.1"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="3"/>
@@ -25880,22 +25882,26 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <junction x="81.28" y="165.1"/>
 <pinref part="U2" gate="G$1" pin="UVLO"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
+<label x="63.5" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FB" class="0">
 <segment>
 <wire x1="154.94" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="147.32" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="144.78" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="147.32" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
-<junction x="170.18" y="147.32"/>
 <pinref part="U2" gate="G$1" pin="FB"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+<junction x="170.18" y="147.32"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -25983,7 +25989,7 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="JP" gate="G$1" pin="+"/>
+<pinref part="JP13" gate="G$1" pin="+"/>
 <wire x1="15.24" y1="127" x2="25.4" y2="127" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="127" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
