@@ -25110,7 +25110,7 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <instance part="D1" gate="G$1" x="121.92" y="20.32" rot="MR90"/>
 <instance part="R3" gate="G$1" x="132.08" y="20.32" rot="MR0"/>
 <instance part="U$5" gate="G$1" x="139.7" y="22.86"/>
-<instance part="GND14" gate="1" x="111.76" y="15.24" rot="MR0"/>
+<instance part="GND14" gate="1" x="114.3" y="15.24" rot="MR0"/>
 <instance part="C3" gate="G$1" x="177.8" y="154.94" smashed="yes">
 <attribute name="NAME" x="180.34" y="157.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.34" y="154.94" size="1.778" layer="96"/>
@@ -25360,8 +25360,8 @@ NEED THAT PIN FOR SOMETHING ELSE.</text>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="111.76" y1="17.78" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="17.78" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PROG" class="0">
