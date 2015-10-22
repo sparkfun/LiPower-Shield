@@ -1,7 +1,7 @@
 SparkFun LiPower Shield
 ========================
 
-![LiPower Shield](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/0/7/1/1/10711-01_i_ma.jpg)
+![LiPower Shield](https://cdn.sparkfun.com//assets/parts/1/0/2/7/0/13158-01.jpg)
 
 [*SparkFun LiPower Shield (DEV-13158)*](https://www.sparkfun.com/products/13158)
 
